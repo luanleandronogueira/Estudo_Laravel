@@ -9,10 +9,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\PrincipalController::class,'principal'])->name('site.index');
 
+<<<<<<< HEAD
 Route::get('/sobre-nos', [\App\Http\Controllers\SobreNosController::class,'sobrenos'])->name('site.sobrenos');
 
 Route::get('/contato', [\App\Http\Controllers\NossoContatoController::class,'contato'])->name('site.contato');
 Route::post('/contato', [\App\Http\Controllers\NossoContatoController::class,'contato'])->name('site.contato');
+=======
+Route::get('/sobrenos', [\App\Http\Controllers\SobreNosController::class,'sobrenos'])->name('site.sobrenos');
+
+Route::get('/contato', [\App\Http\Controllers\NossoContatoController::class,'contato'])->name('site.contato');
+>>>>>>> 5f1d4842bdf3d6823de01663728d078be5fbd191
 Route::get('/login', function() {return 'Login'; });
 
 //app
