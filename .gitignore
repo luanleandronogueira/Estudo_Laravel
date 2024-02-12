@@ -1,3 +1,4 @@
+<<<<<<< HEAD:.gitignore
 <<<<<<< HEAD
 /node_modules
 =======
@@ -5,12 +6,16 @@
 /node_modules
 /public/build
 >>>>>>> 5f1d4842bdf3d6823de01663728d078be5fbd191
+=======
+/node_modules
+>>>>>>> db145fdf08fb464cb6eecd243fe58c9e1caabc60:app_super_gestao/.gitignore
 /public/hot
 /public/storage
 /storage/*.key
 /vendor
 .env
 .env.backup
+<<<<<<< HEAD:.gitignore
 <<<<<<< HEAD
 .phpunit.result.cache
 Homestead.json
@@ -19,13 +24,17 @@ npm-debug.log
 yarn-error.log
 =======
 .env.production
+=======
+>>>>>>> db145fdf08fb464cb6eecd243fe58c9e1caabc60:app_super_gestao/.gitignore
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
-auth.json
 npm-debug.log
 yarn-error.log
+<<<<<<< HEAD:.gitignore
 /.fleet
 /.idea
 /.vscode
 >>>>>>> 5f1d4842bdf3d6823de01663728d078be5fbd191
+=======
+>>>>>>> db145fdf08fb464cb6eecd243fe58c9e1caabc60:app_super_gestao/.gitignore
