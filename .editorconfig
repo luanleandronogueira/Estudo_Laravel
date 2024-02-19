@@ -1,0 +1,36 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+<<<<<<< HEAD:.editorconfig
+<<<<<<< HEAD
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+=======
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+>>>>>>> 5f1d4842bdf3d6823de01663728d078be5fbd191
+=======
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+>>>>>>> db145fdf08fb464cb6eecd243fe58c9e1caabc60:app_super_gestao/.editorconfig
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+<<<<<<< HEAD:.editorconfig
+<<<<<<< HEAD
+=======
+
+[docker-compose.yml]
+indent_size = 4
+>>>>>>> 5f1d4842bdf3d6823de01663728d078be5fbd191
+=======
+>>>>>>> db145fdf08fb464cb6eecd243fe58c9e1caabc60:app_super_gestao/.editorconfig
